@@ -13,6 +13,32 @@
     </v-row>
     <v-container class="mtp">
       <v-row>
+        <v-col>
+          <v-card
+          class="mx-auto"
+          height="500"
+          color="#EAF3FA"          
+        >
+          <v-card-title>Card title</v-card-title>
+          <v-card-text>
+            <v-card-text>
+              Phasellus magna. Quisque rutrum. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Aliquam lobortis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna.
+              In turpis. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In turpis. Pellentesque dapibus hendrerit tortor. Ut varius tincidunt libero.
+            </v-card-text>
+            <v-card-text>
+              <v-img
+                :src="require('../../assets/history.jpg')"
+                style="margin-left: auto; margin-right: auto"
+                class="img-fluid"
+                max-height="500"
+                max-width="600"
+              ></v-img>
+            </v-card-text>
+          </v-card-text>
+        </v-card>
+        </v-col>
+      </v-row>
+      <v-row>
         <v-col
           class="d-flex align-end justify-center flex-column"
           md="5"
